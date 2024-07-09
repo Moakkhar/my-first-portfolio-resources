@@ -15,13 +15,16 @@
 
 .secondary-bg{
     background-color: #FFF8F3;
+    
 }
 
 .header{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position:left top, bottom right;
+    
 }
+
 
 .tex-primary {
     color: #FD6E0A;
@@ -101,11 +104,11 @@ nav li a {
 
 .banner-title{
     font-weight: bold;
-    font-size: 85px;
+    font-size: 30px;
 }
 
 .banner-pic{
-    width: 500px;
+    width: 580px;
 }
 /* main styles */
 main{
@@ -163,4 +166,26 @@ main section{
 
 .resume-download-cv{
     margin-top: 50px;
+}
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
